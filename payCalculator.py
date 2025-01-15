@@ -1,8 +1,11 @@
 def calculatePay():
     # Implement your solution in between the two comment blocks
-    print("calculating pay")
+    print('calculating pay')
     # This first line is provided for you
-    hrs = input("Enter Hours:")
+    hours_worked = float(input("Enter Hours: "))
+    hourly_rate = float(input('Enter Hourly Pay: '))
+    pay = hours_worked * hourly_rate
+    print(pay)
 
     # end assignment
 
